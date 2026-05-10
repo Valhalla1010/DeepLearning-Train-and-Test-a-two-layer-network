@@ -18,14 +18,14 @@ where the matrix ${W}_1$ and ${W}_2$ have size m × d and K × m respectively an
 
 $$
 \begin{aligned}
-\text{SOFTMAX(s)} &= \frac{e^{s}}{\mathbf{1}^T e^{s}}
+\text{SOFTMAX(s)} &= \frac{exp(s)}{\mathbf{1}^T exp(s)}}
 \end{aligned}
 $$
 
 The predicted class corresponds to the label with the highest probability:
 
 $$
-k^* = \arg\max_{1 \leq k \leq k} \; p_k
+k^* = \arg\max_{1 \leq k \leq k} \ {p_1, ... , p_k}
 $$
 
 
