@@ -18,7 +18,7 @@ where the matrix ${W}_1$ and ${W}_2$ have size m × d and K × m respectively an
 
 $$
 \begin{aligned}
-\text{SOFTMAX(s)} &= \frac{exp(s)}{\mathbf{1}^T exp(s)}}
+\text{SOFTMAX(s)} &= \frac{exp(s)}{\mathbf{1}^T exp(s)}
 \end{aligned}
 $$
 
